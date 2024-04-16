@@ -19,7 +19,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: ;
 }
 
 .hero {
@@ -60,8 +59,6 @@ ul{
     align-items: center;
     flex: 1;
     background-color: gray;
-    width: 
-    height: 
 }
 
 .text-container{
@@ -136,7 +133,7 @@ ul{
 }
 
 .quote-text{
-    font: 36px;
+    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
@@ -146,4 +143,48 @@ ul{
     display: flex;
     align-self: flex-end;
     font-weight: bolder;
+}
+
+/* this is the style for the CTA section*/
+
+.cta-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #3882F6;
+    align-items: center;
+    margin: 70px 250px;
+    padding: 40px 100px
+}
+
+
+.cta-text{
+    color:#F9FAF8
+}
+.cta-text1{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.cta-sign-up{
+    color:#F9FAF8;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    padding: 5px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* this is the style for the CTA section*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 30px 250px;
 }
