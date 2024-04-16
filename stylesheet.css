@@ -86,7 +86,7 @@ ul{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 0px 250px 70px 250px;
+    padding: 0px 300px 70px 300px;
     margin: 0px;
 }
 
@@ -126,7 +126,7 @@ ul{
 
 .quote-container {
     background-color: #E5E7EB;
-    padding: 70px 250px;
+    padding: 70px 300px;
     display: flex;
     flex-direction: column;
     gap: 5px;
